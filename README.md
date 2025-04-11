@@ -1,3 +1,5 @@
+This is a guide for how I extracted the [Blue Dragon](https://www.models-resource.com/xbox_360/bluedragon/model/51561/) model from the original game. I hope by making this available, someone may be able to figure out a better process than I did.
+
 1. Use [**QuickBMS**](https://github.com/LittleBigBug/QuickBMS/releases) to extract the ipks from a game disc iso.
 	- In this instace, I extracted "sw01.ipk" from the iso of the first Blue Dragon disc, which is only about 3.33 MB.
 
