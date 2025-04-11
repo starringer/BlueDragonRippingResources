@@ -17,6 +17,7 @@ This is a guide for how I extracted the [Blue Dragon](https://www.models-resourc
 	- The original `tex_dds.py` has `dataOffset = 0x180`, but it's vital to use `dataOffset = 0x800` to unswizzle Blue Dragon textures.
     - I have no memory of where I got the plugin from, and I can't find the source now. 😓
 1. Use Noesis with the provided plugin to extract the textures.
+   	- [example_out.log](https://github.com/starringer/BlueDragonRippingResources/blob/main/example_out.log) is the output from when I used the plugin successfully.
 	- The textures should be unswizzled at this point.
 1. In Blender 2.49, import the models and unswizzled textures.
 2. If you wish, save the blend file and open it in a newer version of Blender.
